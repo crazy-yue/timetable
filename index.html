@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
 <style>
- #bg-video {
+   #bg-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -33,14 +33,30 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(15, 19, 32, 0.75); 
+    background: rgba(15, 19, 32, 0.6); /* Tint over video */
     z-index: -1;
     pointer-events: none;
   }
 
-  /* Keeps original panels solid and overrides only the base page background */
   body {
     background: transparent !important;
+  }
+
+  /* --- SAFE TRANSLUCENCY (NO LAYOUT BREAKING BLUR) --- */
+  
+  /* Timetable grid panels */
+  .panel, .weekp {
+    background-color: color-mix(in srgb, var(--surface) 75%, transparent) !important;
+  }
+
+  /* 12h/24h and Batch control wrappers */
+  .seg {
+    background-color: color-mix(in srgb, var(--wash) 75%, transparent) !important;
+  }
+
+  /* Current/Next Class panel at the top */
+  .hero {
+    background-color: color-mix(in srgb, var(--c) 75%, transparent) !important;
   }
 :root{
   box-sizing:border-box;
