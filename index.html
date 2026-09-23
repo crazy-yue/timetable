@@ -447,6 +447,43 @@ dialog#admin::backdrop{background:rgba(12,16,32,.6)}
 </style>
 </head>
 <body>
+  <!-- 1. FULLSCREEN VIDEO LAYOUT -->
+<video autoplay muted loop playsinline id="bg-video">
+  <!-- Replace "your-video.mp4" with your exact file name or link -->
+  <source src="mai san guns.lol mp4.mp4" type="video/mp4">
+</video>
+<div id="video-overlay"></div>
+
+<!-- 2. STYLES FOR THE VIDEO BACKGROUND -->
+<style>
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  #video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* Adjust 0.75 (75% dark tint) higher if your text becomes hard to read */
+    background: rgba(15, 19, 32, 0.75); 
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  /* Make sure the original timetable background turns transparent so the video shows */
+  body {
+    background: transparent !important;
+  }
+</style>
 <div class="app">
   <div id="view">
   <header class="top">
