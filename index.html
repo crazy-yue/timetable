@@ -46,17 +46,17 @@
   
   /* Timetable grid panels */
   .panel, .weekp {
-    background-color: color-mix(in srgb, var(--surface) 50%, transparent) !important;
+    background-color: color-mix(in srgb, var(--surface) 35%, transparent) !important;
   }
 
   /* 12h/24h and Batch control wrappers */
   .seg {
-    background-color: color-mix(in srgb, var(--wash) 50%, transparent) !important;
+    background-color: color-mix(in srgb, var(--wash) 35%, transparent) !important;
   }
 
   /* Current/Next Class panel at the top */
   .hero {
-    background-color: color-mix(in srgb, var(--c) 50%, transparent) !important;
+    background-color: color-mix(in srgb, var(--c) 35%, transparent) !important;
   }
 :root{
   box-sizing:border-box;
@@ -485,10 +485,6 @@ dialog#admin::backdrop{background:rgba(12,16,32,.6)}
 @media (prefers-reduced-motion:reduce){
   .dot,.ldot{animation:none}
   .hero,.prog>i{transition:none}
-}
-   /* --- UPDATED: APPLIES 50% TRANSPARENCY TO GRIDS AND POPUPS --- */
-.panel, .weekp, .seg, .hero, .modal-box, select, option, .menu-panel {
-  background-color: color-mix(in srgb, var(--surface) 50%, transparent) !important;
 }
 </style>
 </head>
