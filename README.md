@@ -1,4 +1,4 @@
-<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/45eb12be-ebd9-46d8-86a3-7caff68421a1" /># VIT Pune — FY Timetable
+VIT Pune — FY Timetable
 
 A clean, mobile-friendly timetable app for **First Year students at Vishwakarma Institute of Technology, Pune** (Academic Year 2026–27).
 
