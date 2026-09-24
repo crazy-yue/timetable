@@ -46,4 +46,4 @@ Timetable data is extracted with the help of AI from the official college schedu
 
 ## Credits
 
-Built entirely by crazy-yue and  缘儿
+Built entirely by crazy-yue and  缘儿 (my agent)
