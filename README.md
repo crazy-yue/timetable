@@ -1,10 +1,10 @@
-# VIT Pune — FY Timetable
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/45eb12be-ebd9-46d8-86a3-7caff68421a1" /># VIT Pune — FY Timetable
 
 A clean, mobile-friendly timetable app for **First Year students at Vishwakarma Institute of Technology, Pune** (Academic Year 2026–27).
 
 Instead of digging through ugly PDF timetables every day, pick your **branch, division, and lab batch** once and get a live, easy-to-read view of your schedule — what's happening now, what's next, the full day, and the full week.
 
-> 🤖 **Everything about this project — the design, the code, the copy, and this README — was made entirely by AI.** No hand-written code or design was involved.
+>  ☯ Everything in this repo was done by crazy-yue and 缘儿 , 缘儿 carried me fr 🤩❤️, while i did the database and minor design changes like adding mai~san in the background and introduced transparency. 
 
 ---
 
@@ -46,4 +46,4 @@ Timetable data is extracted with the help of AI from the official college schedu
 
 ## Credits
 
-Built entirely by AI (Claude, Anthropic) — design, code, and content.
+Built entirely by crazy-yue and  缘儿
